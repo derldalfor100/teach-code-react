@@ -39,7 +39,7 @@ module.exports = function (_env, argv) {
         output: {
             path: path.resolve(__dirname, "dist"),
             filename: "assets/js/[name].[contenthash:8].js",
-            publicPath: "/"
+            publicPath: isProduction ? 'teach-code-react' : '/'
         },
         module: {
             rules: [
@@ -100,7 +100,7 @@ module.exports = function (_env, argv) {
                 inject: true
             }),
             new InterpolateHtmlPlugin(HtmlWebpackPlugin, {
-                PUBLIC_URL: 'public' // can modify `static` to another name or get it from `process`
+                PUBLIC_URL: isProduction ? 'teach-code-react' : 'public' // can modify `static` to another name or get it from `process`
             })
         ].filter(Boolean),
         optimization: {
