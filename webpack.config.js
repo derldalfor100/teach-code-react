@@ -107,11 +107,11 @@ module.exports = function (_env, argv) {
                 patterns: [
                     {
                         from: path.resolve(__dirname, 'favicon.ico'),
-                        to: '/'
+                        to: path.resolve(__dirname, "dist")
                     },
                     {
                         from: path.resolve(__dirname, 'manifest.json'),
-                        to: '/'
+                        to: path.resolve(__dirname, "dist")
                     }
                 ],
             })
