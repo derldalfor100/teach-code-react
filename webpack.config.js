@@ -101,7 +101,7 @@ module.exports = function (_env, argv) {
                 inject: true
             }),
             new InterpolateHtmlPlugin(HtmlWebpackPlugin, {
-                PUBLIC_URL: isProduction ? '' : 'public' // can modify `static` to another name or get it from `process`
+                PUBLIC_URL: isProduction ? '' : 'public//' // can modify `static` to another name or get it from `process`
             }),
             new CopyPlugin({
                 patterns: [
