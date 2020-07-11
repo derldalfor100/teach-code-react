@@ -101,6 +101,18 @@ module.exports = function (_env, argv) {
             }),
             new InterpolateHtmlPlugin(HtmlWebpackPlugin, {
                 PUBLIC_URL: isProduction ? '' : 'public' // can modify `static` to another name or get it from `process`
+            }),
+            new CopyPlugin({
+                patterns: [
+                    {
+                        from: path.resolve(__dirname, 'favicon.ico'),
+                        to: 'dist'
+                    },
+                    {
+                        from: path.resolve(__dirname, 'manifest.json'),
+                        to: 'dist'
+                    }
+                ],
             })
         ].filter(Boolean),
         optimization: {

@@ -83,3 +83,7 @@ For more information: https://medium.com/@trekinbami/using-environment-variables
 ### Automated Deploy Scripts `npm install gh-pages --save-dev`
 
 For more information: https://stackoverflow.com/questions/42469817/host-github-pages-from-dist-folder-in-master-branch
+
+### `npm install copy-webpack-plugin --save-dev`
+
+For more information: https://webpack.js.org/plugins/copy-webpack-plugin/
