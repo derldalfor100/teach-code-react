@@ -66,3 +66,20 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### `npm install --save-dev webpack webpack-cli` to add webpack
+
+For more information: https://www.toptal.com/react/webpack-react-tutorial-pt-1,
+https://www.toptal.com/react/webpack-config-tutorial-pt-2
+
+### `npm install --save-dev react-dev-utils` to use InterpolateHtmlPlugin
+
+For more information: https://www.npmjs.com/package/react-dev-utils
+
+### Enviroment Variables `npm install --save-dev dotenv`
+
+For more information: https://medium.com/@trekinbami/using-environment-variables-in-react-6b0a99d83cf5
+
+### Automated Deploy Scripts `npm install gh-pages --save-dev`
+
+For more information: https://stackoverflow.com/questions/42469817/host-github-pages-from-dist-folder-in-master-branch
