@@ -64,6 +64,27 @@ module.exports = function (_env, argv) {
                     ]
                 },
                 {
+                    test: /\.s[ac]ss$/,
+                    use: [
+                        isProduction ? MiniCssExtractPlugin.loader : "style-loader",
+                        {
+                            loader: "css-loader",
+                            options: {
+                                importLoaders: 2
+                            }
+                        },
+                        { loader: 'scoped-css-loader' },
+                        "resolve-url-loader",
+                        {
+                            loader: "sass-loader",
+                            options: {
+                                sourceMap: true,
+                                additionalData: `@import "/src/styles/variables.scss";`
+                            }
+                        }
+                    ]
+                },
+                {
                     test: /\.(png|jpg|gif)$/i,
                     use: {
                         loader: "url-loader",

@@ -87,3 +87,11 @@ For more information: https://stackoverflow.com/questions/42469817/host-github-p
 ### `npm install copy-webpack-plugin --save-dev`
 
 For more information: https://webpack.js.org/plugins/copy-webpack-plugin/
+
+### `npm install -D sass-loader node-sass resolve-url-loader`
+
+For more information: https://www.toptal.com/react/webpack-config-tutorial-pt-2
+
+### React Scoped CSS/SCSS
+
+For more information: https://www.npmjs.com/package/babel-plugin-react-scoped-css
