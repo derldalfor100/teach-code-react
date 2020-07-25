@@ -103,3 +103,7 @@ For more information: https://dev.to/arminbro/generate-react-cli-1ooh
 ### `npm install react-router-dom`
 
 For more information: https://medium.com/@bennirus/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2
+
+### Router Redirect
+
+For more information: https://reactrouter.com/web/api/Redirect

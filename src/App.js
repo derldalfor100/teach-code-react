@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from './logo.svg';
 import './App.scoped.scss';
-import { HashRouter, Route, Link } from "react-router-dom";
+import { HashRouter, Route, Link, Redirect } from "react-router-dom";
 import home from './components/home/home';
 import about from './components/about/about';
 
@@ -25,12 +25,13 @@ function App() {
       <HashRouter basename='/'>
         <div className="page-wrapper">
           <ul>
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/home">Home</Link></li>
             <li><Link to="/about">About</Link></li>
           </ul>
           <hr />
-          <Route exact path="/" component={home} />
+          <Route exact path="/home" component={home} />
           <Route path="/about" component={about} />
+          <Redirect to="/home" />
         </div>
       </HashRouter>
     </div>
