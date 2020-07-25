@@ -95,3 +95,11 @@ For more information: https://www.toptal.com/react/webpack-config-tutorial-pt-2
 ### React Scoped CSS/SCSS
 
 For more information: https://www.npmjs.com/package/babel-plugin-react-scoped-css
+
+### `npx generate-react-cli component`
+
+For more information: https://dev.to/arminbro/generate-react-cli-1ooh
+
+### `npm install react-router-dom`
+
+For more information: https://medium.com/@bennirus/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2
