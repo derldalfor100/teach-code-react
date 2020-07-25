@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './logo.svg';
+import Logo from './assets/images/logo.svg';
 import './App.scoped.scss';
 import { HashRouter, Route, Link, Redirect } from "react-router-dom";
 import home from './components/home/home';
