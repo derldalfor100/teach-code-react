@@ -107,3 +107,7 @@ For more information: https://medium.com/@bennirus/deploying-a-create-react-app-
 ### Router Redirect
 
 For more information: https://reactrouter.com/web/api/Redirect
+
+### JSdoc for Types
+
+For more information: https://medium.com/@trukrs/type-safe-javascript-with-jsdoc-7a2a63209b76
