@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{32:function(n,r,t){"use strict";t.d(r,"a",(function(){return c}));var e=t(0);var u=function(n){var r=Object(e.useRef)(n);return Object(e.useEffect)((function(){r.current=n}),[n]),r};function c(n){var r=u(n);return Object(e.useCallback)((function(){return r.current&&r.current.apply(r,arguments)}),[r])}}}]);
