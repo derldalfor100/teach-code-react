@@ -111,3 +111,7 @@ For more information: https://reactrouter.com/web/api/Redirect
 ### JSdoc for Types
 
 For more information: https://medium.com/@trukrs/type-safe-javascript-with-jsdoc-7a2a63209b76
+
+### React-Bootstrap
+
+For more information: https://react-bootstrap.github.io/getting-started/introduction

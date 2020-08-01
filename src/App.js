@@ -1,16 +1,18 @@
+
 import React from 'react';
 import Logo from './assets/images/logo.svg';
 import './App.scoped.scss';
 import { HashRouter, Route, Link, Redirect } from "react-router-dom";
 import home from './components/home/home';
 import about from './components/about/about';
+import Example from './components/example/example';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Logo 
-        // @ts-ignore
+// @ts-ignore
         className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -24,6 +26,7 @@ function App() {
           Learn React {process.env.NODE_ENV}: {process.env.ROOT_URL}
         </a>
       </header>
+      <Example />
       <HashRouter basename='/'>
         <div className="page-wrapper">
           <ul>
