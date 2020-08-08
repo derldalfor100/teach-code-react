@@ -115,3 +115,7 @@ For more information: https://medium.com/@trukrs/type-safe-javascript-with-jsdoc
 ### React-Bootstrap
 
 For more information: https://react-bootstrap.github.io/getting-started/introduction
+
+### Theming React with CSS Variables
+
+For more information: https://dorshinar.me/themes-using-css-variables-and-react-context
